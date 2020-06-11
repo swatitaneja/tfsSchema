@@ -1,0 +1,33 @@
+{
+  "name": "247-schema",
+  "version": "1.0.0",
+  "description": "Schema for UI and backend",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "npm-schema-ajv"
+  ],
+  "author": "247.ai",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --watch --presets babel-preset-env --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.home.247-inc.net/DataApplication/247-schema"
+  }
+}
